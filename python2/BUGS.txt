@@ -1,0 +1,10 @@
+
+ Toucan, Fedora 30:
+
+$ alarm.py -v 50 -p 3 -t 10 0 28
+...
+ImportError: No module named alsaaudio
+
+Fedora 30 has only 'python3-alsaaudio'
+
+

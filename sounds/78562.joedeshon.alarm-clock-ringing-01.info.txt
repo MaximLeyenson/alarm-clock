@@ -1,0 +1,15 @@
+
+
+from soundcloud.com
+
+user:  joedeshon
+
+record number: 78562
+
+original file name:   alarm_clock_ringing_01.wav 
+
+
+
+
+# default is 26 seconds
+# = ~ 8 x 3 seconds

@@ -1,0 +1,47 @@
+
+# ----------------------------------------------------------------
+# -- function: setting sound volume via command line/amixer
+
+# def set_sound_volume(p): #  p is in percent of maximum (0-100) 
+#    print '[setting volume ', p, '% via amixer ]'
+#    # example: $ amixer -q sset Master,0    85%,85% 
+#    # first, Master:
+#    cmd='amixer -q   sset Master,0 ' + str(p) + '%,'+ str(p)  + '%'
+#    print '[', cmd, ']'
+#    os.system(cmd)
+# 
+#    # second, PCM:
+#    #   cmd='amixer -q sset PCM ' + str(p) + '%,'+ volume + '%'
+#    # print '[', cmd, ']'
+#    # os.system(cmd)
+
+# --------------------------------------------------------------------
+# -- function: checking sound volume via command line/amixer
+
+# def get_sound_volume(): #  p is in percent of maximum (0-100) 
+#    # cmd="amixer get Master | tr -d '[]' | grep \"Playback.*%\"  | head -n1 | awk '{print $5}' "   
+#    # here:  'tr' -- delete characters
+#    # i would rather try:
+#    cmd=" amixer get Master | grep Playback.*% | head -1 | awk '{print $4}' | tr -d '[]%' "
+# 
+#    #  me: $ amixer get Master | grep Playback.*% | head -1 | awk '{print $5}' | tr -d '[]%'
+#    #  after 'grep', it keeps lines with  Placyback ... 70%
+#    # then it keeps just one line, which looks like
+#    #       Front Left: Playback 45876 [70%] [on]
+#    # then it takes word # 5, and then removes xtra characters
+# 
+#    # However, on Mint/Findling, it gives  '-25.50dB' instead of value in percent...
+#    #  Step 1:    $ amixer get Master | grep Playback.*% | head -1 
+#    #   Gives    'Mono: Playback 53 [61%] [-25.50dB] [on]'
+#    #  Step 2:   $ amixer get Master | grep Playback.*% | head -1 | awk '{print $5}'    
+#    #   Gives  '[-25.50dB]'
+#    #   and what I need instead is  awk '{print $4}'...
+#    # how to fix???
+# 
+# 
+#    current_volume = commands.getoutput(cmd)
+#    print "current sound volume: ", current_volume, "%"
+#    return current_volume
+# 
+# 
+# # usage: current_volume=get_sound_volume() 
