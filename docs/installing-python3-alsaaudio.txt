@@ -1,9 +1,9 @@
 
-* python-alsaaudio  is a Python 2 module
+* python-alsaaudio  in Mint is a Python 2 module
+
 * python3-alsaaudio  is in Fedora 30, but not in Ubuntu 18.04 / Linux Mint 19 
    
   need to
-        apt install gcc
         apt install python3-dev         # 78 Mb?
         apt install libasound2-dev      # 660 kB
 
@@ -13,4 +13,7 @@
 cf. https://www.raspberrypi.org/forums/viewtopic.php?t=180030
 
     https://stackoverflow.com/questions/23190348/alsaaudio-library-not-working
+
+    https://www.reddit.com/r/learnpython/comments/6b0g33/how_can_i_install_alsaaudio_library_for_python_3/
+
 

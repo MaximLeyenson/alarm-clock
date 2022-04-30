@@ -1,13 +1,12 @@
 
 
-from soundcloud.com
+URL: https://freesound.org/people/joedeshon/sounds/78562/
 
 user:  joedeshon
 
 record number: 78562
 
 original file name:   alarm_clock_ringing_01.wav 
-
 
 
 

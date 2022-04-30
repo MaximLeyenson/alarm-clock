@@ -1,0 +1,19 @@
+++1. let it write "alarm will sound in 8 hrs, at 10am"
+++2. let it write "alarm #2, #3, ..."
+++ move all sound files to a local subfolder
+
+* Link
+	329781__visualasylum__office-phone-ring.q2.ogg
+	77723__cs272__phone-ring.q2.ogg
+
+* push to GitLab
+
+* allow to choose sound player
+
+--------------
+3: write log file
+4:  command line options
+
+!! explain options
+!! test options
+
