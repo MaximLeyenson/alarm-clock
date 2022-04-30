@@ -1,1 +1,0 @@
-/home/leyenson/island/bin/gitlab/git-push-to-gitlab.sh
