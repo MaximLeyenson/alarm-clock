@@ -16,12 +16,12 @@ A simple alarm clock and/or reminder. Documentation will be written later.
 ```
 
 
-and add the lines
+and then add the lines
 
-```
-PATH=$PATH:$HOME/bin/alarm-clock
-export PATH
-```
+   ```
+   PATH=$PATH:$HOME/bin/alarm-clock
+   export PATH
+   ```
 to your .bashrc
 
 **Attributions**
