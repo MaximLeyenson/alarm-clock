@@ -67,12 +67,12 @@ try:
    alarmHours   = int(args[0]) 
    alarmMinutes = int(args[1])
 except: 
-   print('Usage: %s \ ' % sys.argv[0])
-   print('  [-t | --times  number_of_alarms] \ ')
-   print('  [-v | --volume volume] \ ')
-   print('  [-p | --period period] \ ')
-   print('  [-m | --message message] \ ')
-   print(' hours-till-first-alarm minutes-till-first-alarm  \ ')
+   print('Usage: %s  ' % sys.argv[0])
+   print('  [-t | --times  number_of_alarms] ')
+   print('  [-v | --volume volume] ')
+   print('  [-p | --period period] ')
+   print('  [-m | --message message] ')
+   print(' hours-till-first-alarm minutes-till-first-alarm  ')
    sys.exit(1)
 #--                         sys.argv[0] = "0'th argument" = filename
 
@@ -82,11 +82,6 @@ print("[ volume = ", volume, '% ]')
 print("[ period = ", period, ' minutes ]')
 
 night_length = (alarmHours * 60  + alarmMinutes) * 60  
-
-print("[ MAKE ME PUBLIC ON GITLAB ] ")
-print("[ MAKE ME PUBLIC ON GITLAB ] ")
-print("[ MAKE ME PUBLIC ON GITLAB ] ")
-print("[ MAKE ME PUBLIC ON GITLAB ] ")
 
 print("[ ---------------------------------------------------- ] ")
 print("[ ", time.asctime(), " ]")    # time in 'Wed Aug 12 20:23:04 2009' format
