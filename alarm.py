@@ -130,7 +130,6 @@ owl_scream = sounds_path + "owl.mono.64kbps.ogg"
 office_phone_ring1 = sounds_path + \
     "329781__visualasylum__office-phone-ring.q2.ogg"
 
-
 office_phone_ring2 = sounds_path + \
      "77723__cs272__phone-ring.q2.ogg"
 # Phone ring, by Chris Shamburg 
@@ -143,11 +142,13 @@ skype_call="/library/sounds/skype/CallRingingIn.q4.ogg"
 
 moonlight_tomisc="/library/music/beethhoven/moonlight.dubravka-tomsic/01-piano-sonata-no.14-in-c-sharp-minor-op.27.2-moonlight.adagio-sostenuto.mp3"
 # also, need to convert to OGG
+# mp3: 6.5 Mb at 149 kbps
+# ogg: 5.7 Mb at 160 kbps
 
 bwv1044="/library/music/bwv1044/bwv1044.trevor-pinnock.q5.ogg"
+# ogg: 11 Mb at 160 kbps
 
 # = end of: paths =
-
 
 # --------------------------------------------------------------------
 # --------------------- choosing the sound to play -------------------------
@@ -179,19 +180,20 @@ print('    5: Phone ring \n ')
 print('   ----------------------  ')
 print('   = long compositions = ')
 print('   ----------------------  ')
-print('   TO LINK / Remote / On Toucan: ')
+print('   Remote ')
 
-print('   8: Moonlight, 1st movement, Dubravka Tomsic; on toucan library ' )
+print('   8: Moonlight, 1st movement, Dubravka Tomsic' )
             # license: on YouTube and Yandex Music; see the license file here
+            # On Toucan  library 
 
-print('   9: bwv1044, on toucan library ')
+print('   9: bwv1044')
+            # On Toucan  library 
               
 # reading alarm number
 n = sys.stdin.readline()
 # print(' [chosen soundfile number = ', n, ' ]')
 n = int( n )
 # sometimes produces error 'IOError: [Errno 11] Resource temporarily unavailable'
-
 
 if  n == 0:              
    print('chosen: 0: skype call')
