@@ -177,17 +177,17 @@ print('    5: Phone ring \n ')
 # by Chris Shamburg
 
 
-print('   ----------------------  ')
-print('   = long compositions = ')
-print('   ----------------------  ')
-print('   Remote ')
+# print('   ----------------------  ')
+# print('   = long compositions = ')
+# print('   ----------------------  ')
+# print('   Remote ')
 
-print('   8: Moonlight, 1st movement, Dubravka Tomsic' )
-            # license: on YouTube and Yandex Music; see the license file here
-            # On Toucan  library 
+# print('   8: Moonlight, 1st movement, Dubravka Tomsic' )
+#             # license: on YouTube and Yandex Music; see the license file here
+#             # On the Toucan  library 
 
-print('   9: bwv1044')
-            # On Toucan  library 
+# print('   9: bwv1044')
+#             # On the Toucan  library 
               
 # reading alarm number
 n = sys.stdin.readline()
