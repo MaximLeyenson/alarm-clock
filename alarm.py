@@ -154,7 +154,7 @@ bwv1044="/library/music/bwv1044/bwv1044.trevor-pinnock.q5.ogg"
 # --------------------- choosing the sound to play -------------------------
 # --------------------------------------------------------------------
 
-print('[ --------------------- ] ' )
+# print('[ --------------------- ] ' )
 print('   please choose the sound file to play: \n ' )
 
 # print('    0: skype_call ' )
